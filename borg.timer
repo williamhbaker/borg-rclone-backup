@@ -1,0 +1,8 @@
+[Unit]
+Description=Run backup script at 1 AM every day
+
+[Timer]
+OnCalendar=*-*-* 01:00:00
+
+[Install]
+WantedBy=timers.target

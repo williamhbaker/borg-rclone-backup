@@ -1,0 +1,9 @@
+[Unit]
+Description=borg backup and rclone sync script
+
+[Service]
+EnvironmentFile=/path/to/envs
+Type=oneshot
+User=whatever_user
+Group=whatever_group
+ExecStart=/bin/bash /path/to/backup.sh

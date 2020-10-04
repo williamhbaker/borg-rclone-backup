@@ -1,0 +1,6 @@
+BORG_PASSPHRASE="REPO_PASSPHRASE"
+BORG_REPO="/path/to/repo_folder"
+BACKUP_DATA_DIR="/path/to/data/to/backup"
+LOGFILE_PATH="/path/to/log_file.txt"
+MIN_SPACE=12000000
+RCLONE_REMOTE="protocol:name"
